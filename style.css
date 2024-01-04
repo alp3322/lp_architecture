@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+/*top menu construction*/
+#top_Menu {
+  background-color: #303030;
+  height: 475px;
+}
+#titleTopMenu {
+  color: #ffffff;
+  margin-left: 62px;
+  font-size: 55px;
+  font-weight: 600;
+  padding-top: 206px;
+  font-family: inter;
+}
+#subtitleTopMenu {
+  color: #ffffff;
+  margin-left: 62px;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+}
+/*informational menu*/
+#informationalMenu {
+  background-color: #f9f9f9;
+  height: 170px;
+  font-weight: 400;
+  font-family: inter;
+  font-size: 15px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding-top: 54px;
+}
+.textInformationalMenu {
+  margin-left: 120px;
+  align-items: center;
+  font-family: inter;
+}
+.textInformationalMenu p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: inter;
+}
+
+.numberInformational {
+  font-size: 23px;
+  align-items: center;
+  font-family: inter;
+}
+/* history and experience section*/
+#experience {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: inter;
+}
+#experienceSection {
+  background-color: #ffffff;
+  font-size: 19px;
+  font-weight: 300;
+  padding-top: 100px;
+  padding-left: 90px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  align-items: center;
+  font-family: inter;
+}
+#experienceSectionImage {
+  width: 510px;
+  height: 605px;
+  margin-left: 100px;
+}
+/* contact form*/
+.form {
+  margin-top: 150px;
+  background-color: #303030;
+  height: 638px;
+}
+#formTitle {
+  color: #ffffff;
+  padding-top: 120px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: inter;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+}
+#typeForm {
+  text-align: center;
+}
+.sectionInput {
+  height: 60px;
+  width: 480px;
+  border-radius: 10px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 10px;
+  margin-top: 30px;
+  color: #00000031;
+  border: 0px;
+}
+
+#button {
+  width: 286px;
+  height: 62px;
+  background-color: #c07212;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 30px;
+  border: 0px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #d2a063;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #d2a0635e;
+  transition-duration: 0, 8s;
+}
+@media screen and (max-width: 768px) {
+  #experienceSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  #experienceSectionImage {
+    padding-top: 10px;
+  }
+  #top_Menu h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 428px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  #informationalMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    padding-right: 10%;
+    margin-bottom: 20px;
+  }
+  #top_Menu {
+    width: 100%;
+    left: 50vw;
+  }
+  #experienceSection experience {
+    padding-left: 10px;
+    width: 100%;
+  }
+  #experienceSectionImage img {
+    padding-top: 10px;
+    width: 70%;
+    margin-right: 20%;
+  }
+  .form {
+    margin-top: 10%;
+  }
+  .form typeForm {
+    margin-bottom: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 80%;
+  }
+
+  .sectionInput {
+    width: 90%;
+  }
+  #button {
+    margin-top: 15px;
+    
+  }
+}
